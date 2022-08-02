@@ -13,7 +13,7 @@ To start using Bakery, you can import it into existing JS file:<br>
 
 - from URL:<br>
 ```javascript
-import * as Bakery from 'https://cdn.cichocki.me/js/bakery.js'
+import * as Bakery from 'https://gitcdn.link/cdn/cinkciarzkozak/bakery/main/bakery.js'
 ```
 
 - locally:<br>
@@ -23,7 +23,7 @@ import * as Bakery from './bakery.js'
 
 **Note:** Make sure that you have added `type="module"` into your `<script>` tag:
 ```html
-<script type="module" src="script.js">'
+<script type="module" src="script.js"></script>
 ```
 Otherwise Bakery will not work, and you'll likely get `SyntaxError` on console.
 
